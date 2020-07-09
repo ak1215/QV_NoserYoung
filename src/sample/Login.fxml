@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c3e7f0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Login">
+   <children>
+      <Label layoutX="193.0" layoutY="38.0" prefHeight="50.0" prefWidth="214.0" text="QV-Calculator" textAlignment="CENTER" textFill="#41626a">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="88.0" prefHeight="50.0" prefWidth="283.0" text="Focus more on learning than on grades." textAlignment="CENTER" textFill="#41626a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="154.0" prefHeight="30.0" prefWidth="73.0" text="Username" textFill="#41626a">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="200.0" prefHeight="30.0" prefWidth="73.0" text="Password" textFill="#41626a">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="226.0" layoutY="156.0" prefHeight="26.0" prefWidth="204.0" />
+      <TextField layoutX="225.0" layoutY="202.0" prefHeight="26.0" prefWidth="204.0" />
+      <Button layoutX="65.0" layoutY="333.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="149.0" style="-fx-background-color: #41626a;" text="Sign up" textFill="WHITE" />
+      <Button layoutX="370.0" layoutY="261.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" style="-fx-background-color: #41626a;" text="Login" textFill="WHITE" />
+      <Label layoutX="38.0" layoutY="303.0" prefHeight="30.0" prefWidth="204.0" text="Don't have a account? Sign up now." textFill="#41626a" />
+   </children>
+</AnchorPane>
